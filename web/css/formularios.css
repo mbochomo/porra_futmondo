@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-ago-2018, 18:45:16
+    Author     : marco
+*/
+
+.form-registro{
+    text-align: center;
+    margin: auto;
+    margin-top: 70px; 
+    width: 96%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+.form-titulo{
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    color: #fff;
+}
+.add-partido-titulo{
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap; /*El contenido que no entre, se va abajo*/
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+}
+.inputs-chicos-reg{
+    width: 48%;
+}
+
+.input-grande-reg{
+    width: 100%;
+}
+
+.btn-reg{
+    margin: auto;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-reg:active{
+    transform: scale(1.05);
+}
+select{
+    width: 48%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.input-res{
+    width: 10px;
+    height: 10px;
+    text-align: left;
+    outline: none;
+}
+.partido{
+    color: #fff;
+}
+.lista-resultados{
+    list-style: none;
+}
+.contenedor-res{
+    padding-top: 80px;
+    color: #fff;
+    
+}
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.6);
+}

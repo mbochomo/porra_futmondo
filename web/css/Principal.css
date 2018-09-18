@@ -1,0 +1,87 @@
+@charset "utf-8";
+#ventana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+    background:
+		url("https://image.freepik.com/vrije-vector/voetbalstadion-met-spotlicht-voetbalarena_7188-863.jpg")
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+/*Menu*/
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#menu li {
+	display: inline;
+	text-align: left;
+	margin: 0 10px 0 0;
+	float: left;
+	color: white;
+}
+
+#menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#bienvenida {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#menu li a:hover {
+	background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h2 {
+	background-color: #CB4335;
+}
+h4 {
+	color: gray;
+}
+p{
+	text-align: center;
+}
+/*Buscador*/
+#campos{
+	width: 500px;
+}
+#campos ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffff80;
+}
+#campos li {
+	text-align: center;
+	margin: 0 10px 0 0;
+	float: center;
+}
+#boton {
+outline: none;
+}
+#text{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+  }

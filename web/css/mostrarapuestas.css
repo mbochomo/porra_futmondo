@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-ago-2018, 13:29:28
+    Author     : marco
+*/
+.tabla-apuesta{
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-color: #fff;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.tabla-apuesta th{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.tabla-apuesta tr{
+    border: 2px solid white;
+    border-collapse: collapse;
+}

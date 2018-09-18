@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Iniciar sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/formularios.css">
+    </head>
+    <body>
+        <header>
+            <div class ="contenedor">
+                <h1><img src=balon.png alt="">Porra futmondo</h1>
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu"><img src="icono_menu.png" alt=""></label>
+                <nav class="menu">
+                    <a href="">Inicio</a>
+                    <a href="Registrar.html">Registrar</a>
+                    <a href="InicioSesion.html">Iniciar Sesión</a>
+                </nav>
+            </div>
+        </header>
+        <form action="InicioSesion" method="post" class="form-registro">
+            <h2 class="form-titulo">Crea una cuenta</h2>
+            <div class="contenedor-inputs">
+
+                <input type="text" name="usuario" placeholder="Usuario" class="inputs-chicos-reg" required>
+                <input type="password" name="contra" placeholder="Contraseña" class="inputs-chicos-reg" required>
+                <br>
+                <input type="submit" value="Iniciar sesión" class="btn-reg">                       
+            </div>
+        </form>
+
+    </body>
+</html>
+

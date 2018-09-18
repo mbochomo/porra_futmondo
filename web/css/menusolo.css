@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-ago-2018, 12:47:05
+    Author     : marco
+*/
+body{
+    margin: 0;
+}
+header{
+    width: 100%; 
+    background: #98FB98;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    float: right;
+    float: right;
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+header label:hover{
+    cursor: pointer; /*Cambia el cursor*/
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu li a{
+    color: #000000;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    header label{
+        display: blocK;
+    }
+
+    .menu{
+        position: absolute;
+        background: #98FB98;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}

@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-jul-2018, 18:01:01
+    Author     : marco
+*/
+body {
+    background:
+		url("https://image.freepik.com/vrije-vector/voetbalstadion-met-spotlicht-voetbalarena_7188-863.jpg")
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+/*----------------------------------Menú-----------------*/
+#menu ul {
+	list-style-type: none; /*Apariencia de la lista*/
+	margin: 0; /*Margen con los cuatro lados*/
+	padding: 0; /*Espacio de relleno entre elementos*/
+	overflow: hidden; /*Especifica si recortar contenido. Hidden es recortar y no mostrar barras de posición*/
+	background-color: #98FB98;
+}
+
+#menu li {
+	display: inline; /*Especifica el tipo de cuadro de representación para un elemento*/
+	text-align: left; 
+	margin: 0 10px 0 0;
+	float: left;
+	color: black;
+}
+
+#menu li a {
+	display: block; /*El elemento genera un cuadro de elemento de bloque*/
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; /*Quita subrayados y tal*/
+}
+#bienvenida {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#menu li a:hover {
+	background-color: white;
+}
+/*-------------------------------------------------------*/
+#campos_registro {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+}
+#campos_registro ul{
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#campos_registro li{
+    text-align: center;
+    padding-bottom: 1px;
+}
+#ventana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registrar{
+    background-color: rgba(180, 227, 242, 1);
+    border: none;
+    font-size: 16px;
+    border-radius: 10%;
+}
